@@ -1,0 +1,40 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Experiment inputs, outputs and trained artifacts
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+results/
+reports/
+heatmaps*/
+rolling_*/
+/multi_class.txt
+/cv1.json
+
+# Logs and temporary files
+*.log
+*.tmp
